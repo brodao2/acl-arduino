@@ -1,0 +1,41 @@
+{
+  "name": "acl-arduino-client",
+  "displayName": "AC Lab MCU Service Client",
+  "description": "Arduino and similars development environment . Fast and easy!",
+  "publisher": "aclab",
+  "author": {
+    "name": "Alan Cândido (brodao)",
+    "email": "brodao@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brodao2/acl-arduino.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brodao2/acl-arduino.git"
+  },
+  "files": [
+    "src",
+    "syntaxes",
+    "languages"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "@vscode/test-electron": "^2.2.0",
+    "download": "^8.0.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.0.3",
+    "targz": "^1.0.1",
+    "unzip-stream": "^0.3.1",
+    "vscode-languageclient": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^8.0.0",
+    "@types/vscode": "^1.73.1"
+  }
+}
